@@ -2,6 +2,7 @@
 
 import { Button } from "antd";
 import { shuffleArray } from "@/app/lib/utils";
+import React from "react";
 
 
 function bouleg(): void {
@@ -10,11 +11,8 @@ function bouleg(): void {
 
 export default function Page() {
     return (
-        <main>
-            <Button 
-            type="primary"
-            onClick={bouleg}>Bouleg</Button>
-        </main>
-
+        <Button 
+        type="primary"
+        onClick={bouleg}>Bouleg</Button>
     )
 }
